@@ -1,0 +1,31 @@
+{
+  "name": "parachat",
+  "version": "1.0.0",
+  "description": "A simple realtime web application for temporary chat session room with Node.js, Express.js and Socket.io.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmol438/parachat.git"
+  },
+  "keywords": [
+    "'chat'",
+    "'webchat'",
+    "'chatroom'",
+    "'chatapp'"
+  ],
+  "author": "Anmol Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anmol438/parachat/issues"
+  },
+  "homepage": "https://github.com/anmol438/parachat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.1"
+  }
+}
